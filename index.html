@@ -1,87 +1,69 @@
-<!-- doctype indicates HTML5 document -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Søren Nielsen</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Righteous&family=Ubuntu&display=swap" rel="stylesheet">
 
-<!-- header information is not displayed but gives the browser and search engines the information needed to display and present the code properly -->
-<head>
-  <meta charset="utf-8">
-  <!-- by adding more Meta Attributes it is possible to insert meta data for Search Engines to understand and present information on your site -->
 
-  <!-- the title goes in the tab information on the browser-->
-  <title>Søren's Personal Website</title>
-</head>
+  </head>
+  <body>
+    <div class="menu">
+      <a class= "menulogo-link" href="index.html"><img class="menulogo" src="images/toneklang.jpeg" alt="logo">
+      </a>
+      <a class="menulink" href="index.html">Home</a>
+      <a class="menulink" href="music.html">Music</a>
+      <a class="menulink" href="about.html">About</a>
+      <a class="menulink" href="contact.html">Contact</a>
+    </div>
 
-<body>
-  <!-- Using Table to position picture on left of text
-      Cellspacing attribute to push text away from picture -->
-  <table Cellspacing="20">
-    <tr>
-      <!-- Profile Picture -->
-      <td><img src="assets/toneklang.jpeg"></td>
-      <!-- Name and description -->
-      <td><h1>Søren Nielsen</h1>
-      <p><em>Display Lead at <strong>Google Denmark</strong> </em>  </p>
-      <p>I am 37 years old, have three children and a loving wife</p></td>
-    </tr>
-  </table>
+      <div class="topBox">
+        <img class="topcloud" src="images/cloud.png" alt="cloud">
+        <h1>I'm Toneklang</h1>
+        <h2>A <span class="pro">Pro</span>ducer</h2>
+        <img class="mountain" src="images/mountain.svg" alt="mountain">
+        <img class="bottomcloud" src="images/cloud.png" alt="cloud">
+      </div>
 
-  <!-- horizontal break line -->
-  <hr>
+<!-- pasted from StubCode in resources -->
+      <div class="middle-container">
+        <div class="profile">
+          <img class="tonepic" src="images/toneklang.jpeg" alt="profile">
+          <h2>Hello</h2>
+          <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="synth" src="https://www.flaticon.com/svg/static/icons/svg/820/820166.svg" alt="skillicon">
+            <h3>Music Production</h3>
+            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+          </div>
+          <div class="skill-row">
+            <img class="martial" src="https://www.flaticon.com/svg/static/icons/svg/3420/3420423.svg" alt="Martial Arts">
+            <h3>Taekwondo</h3>
+            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <a href="mailto:toneklang@gmail.com" class="btn" target="_blank">CONTACT ME</a>
+        </div>
+      </div>
 
-  <!-- bullet list -->
-  <h3>Education</h3>
-  <ul>
-    <li>Bachelor i Musikvidenskabeligt Institut, Københavns Universitet</li>
-    <li>Bachelor i Sociologi, Københavns Universitet</li>
-    <li>Kandidat i Moder Kultur og kulturformidling, Københavns Universitet</li>
-  </ul>
-  <hr>
-  <!-- numbered list -->
-  <h3>Hobbies</h3>
-  <ol>
-    <li><a href="http://www.toneklang.com">Music Production</a></li>
-    <li>Programming</li>
-    <li>Reading</li>
-    <li><a href="http://www.unitygym.dk">Excersicing</a></li>
-  </ol>
 
-  <hr>
+      <div class="bottom-container">
+        <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/soerensnielsen/">LinkedIn</a>
+        <a class="footer-link" target="_blank" href="https://twitter.com/toneklang">Twitter</a>
+        <a class="footer-link" target="_blank" href="https://www.toneklang.com">Website</a>
+        <p class="copyright">© 2018 Søren Nielsen</p>
 
-  <!-- challenge to do table inside table -->
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table cellspacing="5">
-          <tr>
-            <td>Music Production</td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-          </tr>
-          <tr>
-            <td>Google Web Designer</td>
-            <td>⭐️⭐️⭐️⭐️</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="5">
-          <tr>
-            <td>Programming</td>
-            <td>⭐️⭐️⭐️</td>
-          </tr>
-          <tr>
-            <td>Sports</td>
-            <td>⭐️⭐️⭐️</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-  <hr>
-  <!-- link to another page on the website. Links to the document contact.html, which will be a subsite to the site -->
-  <a href="contact.html">Contact Me!</a>
-
-</body>
-
+      </div>
+  </body>
 </html>
