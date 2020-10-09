@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: #40514E
+}
+
+h1 {
+  font-family: 'Marck Script', cursive;
+  font-size: 5rem;
+  margin: 12.5% auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 10% auto;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Righteous', cursive;
+  color: #11999E;
+  margin: 10% auto;
+}
+
+a {
+  color: #11999E;
+  position: relative;
+  top: 20px;
+  margin: 10% 20px;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  color: #EAF6F6;
+  border: 10px dotted;
+  border-style: none none dotted none;
+  width: 10%;
+  text-align: center;
+  overflow: visible;
+  margin: 5em auto;
+}
+
+.menu {
+  position:fixed;
+  display:block;
+  background-color: #EAF6F6;
+  width:100%;
+  text-align: left;
+}
+
+.menulogo-link{
+margin: 0;
+top:0;
+}
+
+.menulogo {
+  float:left;
+  width:75px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.menulogo:hover {
+  opacity:0.5;
+}
+
+.menulink {
+  margin:auto 1em;
+  top:30px;
+}
+
+.menulink:hover {
+  background-color: #66BFBF;
+  color: #ffffff;
+  border-radius: 5%;
+}
+
+.topBox {
+  background-color: #ecf4f3;
+
+  padding-top: 3%;
+
+}
+
+.mountain {
+  width:40%;
+  margin:auto;
+}
+
+.topcloud {
+  position: absolute;
+  right: 33%;
+  top: 10%;
+  width: 12%;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 30%;
+  bottom: 50%;
+  width: 12%;
+}
+
+.middle-container {
+  padding-top:5%;
+  margin: auto;
+  width: 50%;
+}
+
+.tonepic {
+  width: 50%;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.skill-row {
+  display: block;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile {
+  margin: auto;
+  width: 50%;
+}
+
+.bottom-container {
+  padding: 30px 0 50px;
+  background-color: #66BFBF;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.synth {
+  width: 25%;
+  border-radius: 50%;
+  margin: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.martial {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 44px;
+   font-weight: 300;
+   padding: 22px;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 5% auto;
+}
+
+.btn:hover {
+   background: #66BFBF;
+   border: solid #FFFFFF 2px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+   margin: 5% auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  margin: 3em 2em 0;
+  font-size: 0.8em
+}
